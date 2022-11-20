@@ -9,3 +9,11 @@ function randomAdvice(){
             })
         })
 }
+$( window ).resize(()=> {
+    if(screen.availWidth <= 425){
+        document.getElementById('imgPattern').src = "images/pattern-divider-mobile.svg"
+    }
+    if(screen.availWidth > 425){
+        document.getElementById('imgPattern').src = "images/pattern-divider-desktop.svg"
+    }
+  })

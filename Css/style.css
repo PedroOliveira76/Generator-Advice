@@ -123,17 +123,9 @@ main{
     }
 
     .txt-advice p{
-        font-size: 21px;
+        font-size: 15px;
     }
 
-    .img-divider{
-        width: 85%;
-    }
-
-    .img-divider img{
-        width: 100%;
-        height: 15px;
-    }
 
     .img-dice{
         padding: 15px;
